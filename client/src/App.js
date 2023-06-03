@@ -52,7 +52,8 @@ function App() {
   const cities = ["Delhi", "Mumbai", "Kolkata", "Chennai", "Bangalore", 'Hyderabad']
 
   return (
-    <Container style={{marginTop:"7%"}}>
+    <Container>
+      <h2 style={{textAlign:"center", margin:"4%"}}>FLIGHT PRICE API</h2>
       <Row>
         <Col md={6}>
           <Form onSubmit={submitHandler}>
